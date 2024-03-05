@@ -1,0 +1,16 @@
+Comandos utilizados no console do navegador:
+
+No site do Google:
+==================
+
+document.body.style.background = 'black'
+
+document.body.querySelector('img#hpLogo').style.filter = 'grayscale(100%)'
+
+
+document.body.querySelector('img#hpLogo').style.visibility = 'hidden'
+
+No site do G1
+=============
+
+document.body.querySelector('span.bstn-hl-title').innerText = 'Texto de teste'

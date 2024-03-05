@@ -1,0 +1,3 @@
+ 
+Como inserir emojis em HTML:
+https://unicode.org/emoji/charts/full-emoji-list.html#1f449

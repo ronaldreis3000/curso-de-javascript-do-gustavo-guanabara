@@ -1,0 +1,42 @@
+Estrutura de repetição chamada for
+==================================
+ 
+ For é uma estrutura de repetição com variável de controle.
+ 
+ A estrutura de repetição for realiza iterações enquanto o teste lógico estiver verdadeiro.
+ 
+ A estrutura de repetição for possui 3 partes:
+ 
+ - Uma variável de controle, que normalmente é inicializada com algum valor.
+ 
+ - Um teste lógico, que é a condição para a iteração continuar ocorrendo, ou seja, enquanto o teste lógico estiver verdadeiro, a iteração continua. Esse teste lógico é feito logo no início do loop (ou iteração).
+ 
+ - Incrementação da variável de controle, que é sempre realizado no final da iteração.
+ 
+ Exemplo:
+ 
+ for (var i = 1; i <= 10; i++){
+    console.log(`Valor atual: ${i}`);
+ }
+ 
+ Explicando esse exemplo:
+ 
+ - Variável de controle: var i = 1
+ 
+ - Teste lógico: i <= 10
+ 
+ - Incrementação da variável de controle: i++
+ 
+ Ou seja, para a variável i (que contém o valor inicial zero), enquanto a variável i estiver menor ou igual a 10, permaneça rodando (ou iterando) o código dentro do comando for.
+
+
+ 
+Dedebug (depuração) no Visual Studio Code
+=========================================
+ 
+
+Após clicar no menu Debug (ou Run, em algumas versões do Visual Code), clique no menu Start Debugging. É preciso escolher a opção "Node.js Preview" (para quem instalou a extensão "Node.js Exec" nas aulas anteriores). Se estiver executando um arquivo contendo apenas Javascript, escolha a opção "Run Current File".
+
+
+
+ 

@@ -1,0 +1,58 @@
+Dicas para aprender Javascript:
+================================
+
+1) Assistir video aulas.
+2) Praticar no computador.
+3) Ler sites, materiais de referência e livros.
+4) Anotar pontos importantes.
+5) Interagir e ajudar pessoas, seja presencialmente ou em fóruns na Internet.
+6) Criar projetos pessoais utilizando Javascript.
+
+Sugestão de livros:
+===================
+
+- Javascript, o Guia Definitivo (David Flarnagan, editora OReily)
+
+- Javascript Guia do Programador (Maurício Sami Silva, o Maujor, editora Novatec)
+
+Guias de referência:
+====================
+
+------ Guia de referência de Javascript da Mozilla
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/guide
+ou
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference
+ou
+https://developer.mozilla.org/pt-BR/
+
+------ Guia de referência de Javascript da Ecma
+ECMAscript 2015:
+http://ecma-international.org/ecma-262/6.0/index.html
+ou
+ECMAscript - todas as versões:
+http://ecma-international.org/publications/standards/Ecma-262-arch.htm
+ou
+ECMAscript 2020:
+http://ecma-international.org/ecma-262/11.0/index.html
+
+Como instalar o nodejs e o npm no Ubuntu 20.04:
+================================================
+
+Referência:
+https://marquesfernandes.com/desenvolvimento/como-instalar-a-ultima-versao-de-nodejs-e-npm-no-ubuntu-debian-usando-ppa/
+
+----- Abra o terminal e instale via esse PPA:
+
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt-get update
+sudo apt-get install nodejs
+
+----- Para verificar se o nodejs está corretamente instalado, execute esses comandos no terminal:
+
+node -v
+
+npm -v
+
+node -e "for (let i = 0; i < 10; i++) { console.log(i) }"

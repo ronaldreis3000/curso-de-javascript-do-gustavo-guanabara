@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+
+    <style>
+        body {
+            background-color: rgb(68, 125, 199);
+            color: white;
+            font: normal 18px sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript. </p>
+    <div id="msg">Clique em mim</div>
+    <form name="msg">Clique em mim 2</form>
+    <div class="msg">Clique em mim 3</div>
+    <div class="msg2">Clique em mim 4</div>
+
+    <script>
+        window.document.write('<br> teste <br><br>');
+        window.document.write(window.document.URL + '<br><br>');
+
+        // Exemplo de seleção por nome da tag
+        var p1 = window.document.getElementsByTagName('p')[1];
+        
+        window.document.write('Está escrito assim: ' + p1.innerText + '<br><br>');
+        window.document.write('Está escrito assim: ' + p1.innerHTML + '<br><br>');
+        
+        p1.style.color = 'blue';
+
+        var corpo = window.document.body;
+        corpo.style.backgroundColor = "#555555";
+
+        // Exemplo de seleção de elemento por Id (do CSS)
+        var d = window.document.getElementById('msg');
+        d.style.background = 'green';
+        d.innerText = 'Estou aguardando...'; // É possivel fazer isso de outra forma:
+        //window.document.getElementById('msg').innerText = 'Aguardando...';
+
+        // Exemplo de seleção de elemento pelo nome dele (propriedade name)
+        var d2 = window.document.getElementsByName('msg')[0];
+        d2.innerText = 'Olá!';
+
+        // Exemplo de seleção de elemento por classe (do CSS)
+        var d3 = window.document.getElementsByClassName('msg')[0];
+        d3.innerText = 'Hey ho!';
+        
+        // Exemplo de seleção de elemento por Seletor (querySelector)
+        var d4 = window.document.querySelector('div.msg2');
+        d4.innerText = 'Hello!!!';
+
+        
+
+
+    </script>
+
+</body>
+</html>

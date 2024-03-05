@@ -1,0 +1,110 @@
+A história do Javascript:
+=========================
+
+---- 1970 
+
+Guerra fria entre USA e União Soviética.
+
+DARPA - Criação de agência militar de pesquisa tecnológica chamada DARPA, com o objetivo de pesquisar tecnologias para guerra. Um dos objetivos da DARPA foi criar uma rede que interconectasse os computadores dos centros militares.
+
+Arpanet - rede para interligar computadores militares criada pela DARPA. Também inteligava algumas universidades.
+
+Internet - A Arpanet cresceu muito e foi aberta ao público em geral com o nome de Internet.
+
+---- 1993
+
+Linguagem HTML, protocolos HTTP, TCP e IP - tecnologias criadas por Bernes Lee e sua equipe.
+
+World Wide Web (WWW) - Fundada por Tim Bernes Lee.
+
+CERN - Organização euroéia para pesquisa de energia nuclear na qual Tim Bernes Lee trabalha atualmente.
+
+Mosaic - primeiro navegador de Internet, criado nos EUA pelo centro de pesquisas chamado NCSA, por 
+Marc Andreessen.
+
+---- 1994
+
+Netscape - Navegador criado pela união de Marc Andreessen (criador do Mosaic) e Jim Clark (fundador da Silicon Graphics).
+
+---- 1995
+
+JavaScript - Linguagem de script pela Netscape. O nome inicial era LiveScript, que foi rebatizado para JavaScript como uma jogada de marketing (aproveitando o sucesso da Linguagem Java, que não tem nada a ver com JavaScript, a não ser a origem comum na linguagem C).
+
+---- 1997
+
+ECMA Script - A Netscape procura uma empresa especializada em criar padronizações (semelhante a empresa ISO americana) chamada ECMA (Associação Européia de Fabricantes de Computadores) para padronizar o Javascript. Assim surgiu a Linguagem ECMA Script (a Linguagem JavaScript padronizada).
+
+---- 1998
+
+ECMA Script 2.0 - Pequenas melhorias na versão 1.0 de 1997.
+
+---- 1999
+
+ECMA Script 3.0 - Essa versão trouxe compatibilidade com expressões regulares e trazia o bloco "try catch".
+
+---- 2002
+
+Mozilla Firefox - A empresa Mozilla, derivada da extinta Netscape, cria o navegador Firefox, que se tornou muito popular.
+
+---- 2008
+
+Google Chrome - Navegador criado pela Google, que após alguns anos se tornou o navegador mais popular do mundo.
+
+---- 2009
+
+Google Chrome baseado em V8 - V8 é um nome que faz referência aos motores automotivos. Trata-se de um motor que roda JavaScript. Uma grande vantagem do V8 é que ele gera código JIT (Just In Time). O V8 tem código aberto no Git Hub.
+
+Motores JavaScript de cada navegador:
+
+Firefox - Spider Monkey.
+Safari - Nitro.
+Opera - Carakan.
+Microsoft Edge - Chakra.
+
+ECMA Script 5.0 (ES5) - Pulando a criação da versão 4, sugiru em 2009 a versão 5 do ECMA Script (batizado de ES5). Trata-se da versão mais popular de todas (em 2018), compatível com quase todos os navegadores atuais. Trouxe compatibilidade com json e vários métodos para tratar arrays.
+
+---- 2010
+
+Node JS - Trata-se de uma máquina que roda Javascript fora do navegador feita a partir do motor V8 do Google Chrome. O Node JS não foi feito para rodar em computadores de usuários e, sim, em servidores.
+
+---- 2015
+
+ECMA Script 6.0 (ES6) - Essa versão trouxe os declaradores let e const, além das strings em templates.
+
+---- 2016
+
+ECMA Script 2016 (ES 2016) - A partir desta versão, o ECMA Script passou a se chamar "ES ano do lançamento", sendo que uma nova versão é lançada a cada ano. Esta versão trouxe a funcionalidade operador de exponenciação.
+
+---- 2017
+
+ECMA Script 2017 (ES 2017) - Esta versão trouxe a compatibilidade com funções assíncronas.
+
+---- 2018
+
+ECMA Script 2018 (ES 2018) - Trouxe novidades em expressões regulares e a possibilidade de promisses.
+
+
+Ferramentas que surgiram a partir do JavaScript:
+===============================================
+
+* JQuery - Biblioteca JavaScript criada pela Mozilla.
+* Angular - Criada e mantida pela Google, sugiu em 2009, facilitando a criação de aplicações Web. Trata-se de uma linguagem menos imperativa e mais declarativa, semelhante ao SQL para banco de dados.
+* React - Criada pelo Facebook, é semelhante ao Angular, mas é mais flexível.
+* React Native - React modificado para criar aplicações para smartphones.
+* Vue - Criado em 2014 por um ex programador do Google que estava cansado de utilizar o Angular. O Vue é o Angular melhorado.
+* Electron - Mantido pela Git Hub. É expecializado na criação de interfaces gráficas, programas de interface gráfica. Exemplos de programas feitos com Electron: MS Visual Studio Code, chat do Discord e o Slack.
+* Ionic - Trata-se de um sdk para criar aplicações para dispositivos móveis. Ele se baseia em uma tecnologia antiga chamada Phonegap e também utiliza o Node JS para funcionar.
+* Cordova - Evolução do Phonegap. Essa é uma tecnologia de propriedade da empresa Apache atualmente (2018).
+
+
+Ferramentas baseadas em JavaScript para criar jogos
+====================================================
+
+* Phaser
+* PixiJS
+* Impact
+* Melon.JS
+* CraftyJS
+
+
+

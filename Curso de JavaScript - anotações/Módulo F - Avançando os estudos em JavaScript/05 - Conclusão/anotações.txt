@@ -1,0 +1,58 @@
+parei em 14:29
+
+https://www.youtube.com/watch?v=roP93FA-NgU&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=35
+
+
+O que foi visto no curso:
+=========================
+
+- Fundamentos
+- Variáveis e dados
+- Operadores
+- Codições
+- Repetições (laços de repetição)
+- Arrays
+- Functions
+- DOM
+
+
+
+Estudos recomendados após terminar o curso básico de Javascript:
+===============================================================
+
+- Funções (arrow function, callback, funções anônimas, iife)
+
+- Estudar orientação a objetos
+
+- Modularização (deixar códigos separados em arquivos separados, reutilizar código)
+
+- RegEx (expressões regulares) - útil para validação de dados, economiza tempo e código
+
+- JSON (semelhante a uma estrutura de objetos na qual você consegue transmitir dados e salvar dados localmente)
+
+- AJAX
+
+- NodeJS (scripts Javascript rodando no servidor)
+
+- Bibliotecas Javascript (JQuery, etc)
+
+- Frameworks Javascript (ViewJS, Angular, etc)
+
+
+Objetos em Javascript
+======================
+
+Declaração básica - exemplo:
+
+var amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
+
+
+Um objeto em Javascript é parecido com um array, porém, ao invés de colchetes, utiliza chaves e ao invés de apenas índices númericos, pode utilizar nomes como sendo índices. Esses nomes recebem o nome de atributos.
+
+No objeto amigo mostrado acima, existem vários atributos seguidos de seus valores. Entre um atributo e valor é colocado um símbolo de dois-pontos. Algo importante a dizer é que objetos Javascript podem guardar valores e também funcionalidades (métodos). No exemplo anterior, a última posição possui a função engordar(p){}. Nesse caso, o nome do atributo é engordar e o conteúdo dele é [Function: engordar].
+
+Através das versões mais atuais do Ecmascript, é possível trabalhar com herança de objetos em Javascript. Veja:
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Inheritance
+
+
+

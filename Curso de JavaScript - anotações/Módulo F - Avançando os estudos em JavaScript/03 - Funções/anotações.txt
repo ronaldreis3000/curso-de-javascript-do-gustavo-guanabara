@@ -1,0 +1,78 @@
+Uma função em Javascript, como em muitas outras linguagens, é composta por:
+
+1) A chamada da função (que pode ser uma ação do usuário ou uma ação automatizada do sistema)
+2) O(s) argumento(s) da função (também chamado erroneamente de parâmetro entre programadores de software), que são valores que a função utilizará internamente (e, uma vez dentro da função, um argumento se torna um parâmetro dela).
+3) A ação da função (o que a função faz).
+4) O retorno da função (o resultado da ação da função).
+
+
+Parâmetros opcionais
+====================
+
+É possível definir valores default para argumentos (ou parâmetros) de funções. Assim, se um parâmetro não for passado na chamada da função, o valor default é assumido. Exemplo:
+
+function soma(n1=0, n2=0){
+    return n1 + n2;
+}
+
+console.log(soma(2+5)); // Irá exibir 7
+console.log(soma(2)); // Irá exibir 2
+
+Variáveis agindo como funções
+==============================
+
+Em Javascript, uma variável pode se comportar como função. Exemplo:
+
+let v = function(x){
+    return x*2;
+}
+
+console.log(v(5)); // Irá imprimir 10
+
+
+Arrow funcions
+==============
+
+Ainda existem as arrow functions. Trata-se de um modo pouco convencional de trabalhar com funções. 
+
+Exemplo:
+
+let hello = () => {
+  return "Hello World!";
+}
+
+console.log(hello()); // Irá mostrar Hello World
+
+Detalhes em:
+https://www.w3schools.com/js/js_arrow_function.asp
+
+Funções recursivas
+==================
+
+Funções recursivas são aquelas que fazem chamadas para elas mesmas.
+
+Exemplo:
+
+function fatorial(n){
+    if(n == 1){
+        return 1;
+    }else{
+        return n * fatorial(n-1);
+    }
+}
+
+console.log(fatorial(5)); // Irá exibir 120
+
+- A mesma função anterior, porém sem o modo recursivo::
+
+function fatorial(n){
+    let fat = 1;
+
+    for(n; n > 1; n--){
+        fat *= n;
+    }
+
+    return fat;
+}
+
+console.log(fatorial(5)); // Irá exibir 120

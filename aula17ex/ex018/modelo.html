@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <span>Número (entre 1 e 100): </span> <input type="number" name="num1" id="num1" onclick="this.select()"> <input type="button" value="Adicionar" onclick="adiciona_numeros();"> <input type="button" value="Limpar" onclick="location.reload();">
+            </p>
+        </div>
+        
+        <div>
+            <p>
+                <select name="seltab" id="seltab" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+            </p>
+            <input type="button" value="Finalizar" onclick="mostra_relatorio();">            
+        </div>
+        <div id="relatorio">
+            <p>
+                teste
+            </p>
+        </div>        
+    </section>
+
+    <footer>
+        <p>&copy; CursoEmVídeo</p>        
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

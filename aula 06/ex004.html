@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font: normal 20px sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt('Qual é seu nome?');
+        document.write(`Seu nome tem ${nome.length} letras <br><br>`);
+
+        var salario = 4000.75;
+
+        var salario_formatado = salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}); // Para Real brasileiro
+
+        document.write(`${salario_formatado} <br><br>`);
+
+        var salario_formatado = salario.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}); // Para dólar
+
+        document.write(`${salario_formatado} <br><br>`);
+
+        var salario_formatado = salario.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}); // Para Euro        
+
+        document.write(`${salario_formatado} <br><br>`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+    https://www.youtube.com/watch?v=5rZqYPKIwkY&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=23
+parei em 12:08
+
+As repetições também podem ser chamadas de laços ou iterações.
+
+while
+=====
+
+O while é uma estrutura de repetição com teste lógico no início ou no final. Exemplo:
+
+Teste lógico no início:
+-----------------------
+
+var c = 1;
+
+while (c <= 6){
+    console.log(`Passo ${c}`);
+
+    c++;
+}
+
+
+Teste lógico no final:
+-----------------------
+
+O while também pode ser uma estrutura de repetição com teste lógico no final. Exemplo:
+
+var c = 1;
+
+do {
+    console.log(`Passo ${c}`);
+
+    c++;
+} while(c <= 6)
